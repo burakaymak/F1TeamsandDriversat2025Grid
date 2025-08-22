@@ -12,6 +12,10 @@ Her takımın iki sürücüsü bulunmaktadır ve sürücülerin **isimleri** ile
 - 🖼 Pilot fotoğraflarını görselleştirme  
 - 🔄 TableView üzerinden seçim yaparak **detay sayfasına geçiş**  
 - 📤 **prepare(for segue:)** ile veri aktarma  
+- 🧩 **OOP (Nesne Yönelimli Programlama)** prensipleri kullanıldı:  
+  - `Teams` sınıfı tanımlandı ve her takım için iki pilotu saklayacak şekilde tasarlandı  
+  - `init` fonksiyonu kullanılarak her `Teams` nesnesi **sürücü ismi** ve **görseli** ile birlikte oluşturuldu  
+  - Böylece hem **veri kapsülleme** hem de **yeniden kullanılabilirlik** sağlandı  
 
 ---
 
@@ -37,7 +41,3 @@ Uygulamada yer alan takımlar ve sürücüler:
 3. 🔄 `performSegue` ile detay ekranına geçilir.  
 4. 📤 `prepare(for segue:)` fonksiyonu, seçilen takımın sürücü bilgilerini **DetailsVC**'ye aktarır.  
 5. 🖼 Detay ekranında seçilen takımın iki pilotunun adı ve resmi görüntülenir.  
-
-
-
-
